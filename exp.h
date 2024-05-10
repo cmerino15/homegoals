@@ -22,9 +22,13 @@ private slots:
 
     void on_pushButton_2_clicked();
 
+    void on_actionClear_triggered();
+
+    void on_actionSave_triggered();
+
 private:
     Ui::exp *ui;
-    QString currentfile; // the entire current file ... not a text box
+    QString currentfile; // to be used for the entire current file ... maybe notes+stats
 
 };
 #endif // EXP_H
