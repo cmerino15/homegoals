@@ -1,11 +1,16 @@
-# homegoals
-## basic home workout goals app
+# HomeGoals - Made usnig QT
 
-focusing on pushups, pullups, and situps
+### A basic home workout app
 
-### Made in QT
+### focusing on the the bread & butter: pushups, pullups, situps.
 
-### ToDo:
+To work on in QT, make sure you click on the cmake .txt file
+
+## Screenshot
+
+![snippet](images/submit.png)
+
+## ToDo:
 
 - [x] Add ability to set/reset goals
 
@@ -15,10 +20,17 @@ focusing on pushups, pullups, and situps
 
 - [x] fix the save function
 
-- [] Add automatic loading of goals on program start
+- [ ] Add automatic loading of goals on program start
 
-- [ ] Add resource files to github repo
+- [x] Add screenshot to repo
 
-- [ ] Edit readme file
+- [ ] Edit readme file to look more stylish
 
 - [ ] App store integration
+
+- [ ] Finish exit, about me, and help menu actions
+
+- [ ] Window Title
+
+- [ ] Set distributable settings
+
