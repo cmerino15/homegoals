@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/new/imgs">
+        <file>run.jpg</file>
+        <file>run2.jpg</file>
+    </qresource>
+</RCC>

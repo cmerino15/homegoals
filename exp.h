@@ -26,9 +26,12 @@ private slots:
 
     void on_actionSave_triggered();
 
+    void on_actionNew_Goals_triggered();
+
 private:
     Ui::exp *ui;
     QString currentfile; // to be used for the entire current file ... maybe notes+stats
+    QString pushupg="", pullupg="", situpg="";
 
 };
 #endif // EXP_H
