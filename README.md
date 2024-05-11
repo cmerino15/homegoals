@@ -1,16 +1,24 @@
 # homegoals
+## basic home workout goals app
 
-~basic home workout goals app~
 focusing on pushups, pullups, and situps
 
-# Made in QT
+### Made in QT
 
-## ToDo:
+### ToDo:
 
-[ ] Add ability to set/reset goals
+- [x] Add ability to set/reset goals
 
-[ ] Add graphics
+- [x] Add graphics
 
-[ ] - Write slots for more functionality
+- [x] Write slots for more functionality
 
-[ ] fix the save function...I think it has to do with not includnig the absolute path and possibly the build mode
+- [x] fix the save function
+
+- [] Add automatic loading of goals on program start
+
+- [ ] Add resource files to github repo
+
+- [ ] Edit readme file
+
+- [ ] App store integration
