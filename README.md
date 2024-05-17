@@ -1,8 +1,8 @@
 # HomeGoals - Made using QT
 
-## A basic home workout app focusing on the the bread & butter: pushups, pullups, situps.
+## A basic home workout app focusing on pushups, pullups, and situps.
 
-To work on in QT, make sure you click on the cmake .txt file
+In QT - Build using the CMake file
 
 ## Screenshot
 
@@ -26,9 +26,9 @@ To work on in QT, make sure you click on the cmake .txt file
 
 - [ ] App store integration
 
-- [ ] Finish exit, about me, and help menu actions
+- [ ] Finish exit, ~about me, and help menu~ actions
 
-- [ ] Window Title and Icon
+- [x] Window Title and Icon
 
 - [ ] Set distributable settings
 
