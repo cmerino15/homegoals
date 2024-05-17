@@ -23,7 +23,11 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>exp</string>
+   <string>Home Goals</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="images.qrc">
+    <normaloff>:/new/imgs/icons8-increase-100.png</normaloff>:/new/imgs/icons8-increase-100.png</iconset>
   </property>
   <property name="windowOpacity">
    <double>0.900000000000000</double>
@@ -31,8 +35,14 @@
   <property name="styleSheet">
    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(236, 224, 210, 100), stop:1 rgba(255, 255, 255, 255));</string>
   </property>
+  <property name="iconSize">
+   <size>
+    <width>30</width>
+    <height>30</height>
+   </size>
+  </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>30</x>
@@ -251,8 +261,14 @@
      <x>0</x>
      <y>0</y>
      <width>1024</width>
-     <height>26</height>
+     <height>32</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Lucida Calligraphy</family>
+     <pointsize>12</pointsize>
+    </font>
    </property>
    <widget class="QMenu" name="menuGoals">
     <property name="title">
@@ -263,45 +279,100 @@
     <addaction name="separator"/>
     <addaction name="actionClear"/>
     <addaction name="separator"/>
-    <addaction name="actionAbout"/>
-    <addaction name="separator"/>
     <addaction name="actionExit"/>
    </widget>
    <widget class="QMenu" name="menuHelp">
     <property name="title">
      <string>Help</string>
     </property>
+    <addaction name="actionAbout"/>
    </widget>
    <addaction name="menuGoals"/>
    <addaction name="menuHelp"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <action name="actionNew_Goals">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/new/imgs/icons8-checklist-100.png</normaloff>:/new/imgs/icons8-checklist-100.png</iconset>
+   </property>
    <property name="text">
     <string>Set New Goal</string>
    </property>
+   <property name="font">
+    <font>
+     <family>Calibri</family>
+     <pointsize>10</pointsize>
+     <italic>true</italic>
+    </font>
+   </property>
   </action>
   <action name="actionAbout">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/new/imgs/icons8-about-100 (1).png</normaloff>:/new/imgs/icons8-about-100 (1).png</iconset>
+   </property>
    <property name="text">
     <string>About</string>
    </property>
+   <property name="font">
+    <font>
+     <family>Lucida Calligraphy</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
   </action>
   <action name="actionExit">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/new/imgs/icons8-close-window-100.png</normaloff>:/new/imgs/icons8-close-window-100.png</iconset>
+   </property>
    <property name="text">
     <string>Exit</string>
    </property>
+   <property name="font">
+    <font>
+     <family>Calibri</family>
+     <pointsize>10</pointsize>
+     <italic>true</italic>
+    </font>
+   </property>
   </action>
   <action name="actionClear">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/new/imgs/icons8-available-updates-100.png</normaloff>:/new/imgs/icons8-available-updates-100.png</iconset>
+   </property>
    <property name="text">
     <string>Clear Screen</string>
    </property>
+   <property name="font">
+    <font>
+     <family>Calibri</family>
+     <pointsize>10</pointsize>
+     <italic>true</italic>
+    </font>
+   </property>
   </action>
   <action name="actionSave">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/new/imgs/icons8-save-100.png</normaloff>:/new/imgs/icons8-save-100.png</iconset>
+   </property>
    <property name="text">
     <string>Save</string>
    </property>
+   <property name="font">
+    <font>
+     <family>Calibri</family>
+     <pointsize>10</pointsize>
+     <italic>true</italic>
+    </font>
+   </property>
   </action>
  </widget>
- <resources/>
+ <resources>
+  <include location="images.qrc"/>
+ </resources>
  <connections/>
 </ui>

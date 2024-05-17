@@ -2,5 +2,11 @@
     <qresource prefix="/new/imgs">
         <file>run.jpg</file>
         <file>run2.jpg</file>
+        <file>icons8-about-100 (1).png</file>
+        <file>icons8-checklist-100.png</file>
+        <file>icons8-increase-100.png</file>
+        <file>icons8-save-100.png</file>
+        <file>icons8-available-updates-100.png</file>
+        <file>icons8-close-window-100.png</file>
     </qresource>
 </RCC>

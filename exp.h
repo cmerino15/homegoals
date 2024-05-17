@@ -28,6 +28,8 @@ private slots:
 
     void on_actionNew_Goals_triggered();
 
+    void on_actionAbout_triggered();
+
 private:
     Ui::exp *ui;
     QString currentfile; // to be used for the entire current file ... maybe notes+stats

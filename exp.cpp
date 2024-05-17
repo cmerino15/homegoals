@@ -3,6 +3,7 @@
 #include "QDateTime"
 #include "QFileDialog"
 #include "QInputDialog"
+#include "QMessageBox"
 
 exp::exp(QWidget *parent)
     : QMainWindow(parent)
@@ -98,5 +99,12 @@ void exp::on_actionNew_Goals_triggered()
     ui->label_12->setText(situpg);
     ui->label_11->setText(pullupg);
     ui->label_10->setText(pushupg);
+}
+
+
+void exp::on_actionAbout_triggered()
+{
+    QMessageBox::about(this, "How to Use", "How to use\n\n1. Click on goals and set, if not already set.\n2. Submit your workout.\n3. Save File for records.\n\nSome progress is better than no progress!");
+
 }
 
